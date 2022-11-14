@@ -1,0 +1,4 @@
+FROM openjdk:17-jdk-alpine
+MAINTAINER com.api.chocolates
+COPY target/api-chocolates-1.0.0.jar api-chocolates-1.0.0.jar
+ENTRYPOINT ["java","-jar","/api-chocolates-1.0.0.jar"]

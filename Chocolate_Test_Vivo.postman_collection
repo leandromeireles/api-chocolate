@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "4d1f8683-4449-4984-a59c-289c0dee4901",
+		"name": "teste Chocolate Vivo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3768504"
+	},
+	"item": [
+		{
+			"name": "getPercentageCocoa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/chocolate?typeChocolate=C",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"chocolate"
+					],
+					"query": [
+						{
+							"key": "typeChocolate",
+							"value": "C"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Type Chocolate A",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/chocolate?typeChocolate=A",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"chocolate"
+							],
+							"query": [
+								{
+									"key": "typeChocolate",
+									"value": "A"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "26"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"percentChocolate\": \"80%\"\n}"
+				},
+				{
+					"name": "Type Chocolate B",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/chocolate?typeChocolate=B",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"chocolate"
+							],
+							"query": [
+								{
+									"key": "typeChocolate",
+									"value": "B"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "26"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"percentChocolate\": \"85%\"\n}"
+				},
+				{
+					"name": "Type Chocolate C",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/chocolate?typeChocolate=C",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"chocolate"
+							],
+							"query": [
+								{
+									"key": "typeChocolate",
+									"value": "C"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "26"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"percentChocolate\": \"90%\"\n}"
+				}
+			]
+		}
+	]
+}
